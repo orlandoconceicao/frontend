@@ -4,17 +4,17 @@ import "./App.css";
 import night from "./assets/night.jpg";
 
 // 3 - useState
-import Data from "./components/Data";
+import Data from "./components/hook-useState";
 
 // 4 - render de lista
-import ListRender from "./components/ListRender";
+import ListRender from "./components/renderizacao";
 
 // 7 - renderizacao condicional
-import ConditionalRender from "./components/ConditionalRender";
+import ConditionalRender from "./components/renderizacao-condicional";
 
 // 8 - props
-import ShowUserName from "./components/ShowUserName";
-import CarDetails from "./components/CarDetails";
+import ShowUserName from "./components/props-componente";
+import CarDetails from "./components/desestruturando-props";
 
 // 11 - renderizacao de lista
 const cars = [
@@ -27,16 +27,16 @@ const cars = [
 import Fragment from "./components/Fragment";
 
 // 13 - children prop
-import Container from "./components/Container";
+import Container from "./components/children-container";
 
 // 14 - funcao em prop
-import ExecuteFunction from "./components/ExecuteFunction";
+import ExecuteFunction from "./components/funcao-prop";
 
 // 15 - state lift
 import { useState } from "react";
 
-import MessageState from "./components/MessageState";
-import ChangeMessageState from "./components/ChangeMessageState";
+import MessageState from "./components/stateLift-simples";
+import ChangeMessageState from "./components/stateLift-avançado";
 
 function App() {
   // 14 - funcao em prop
