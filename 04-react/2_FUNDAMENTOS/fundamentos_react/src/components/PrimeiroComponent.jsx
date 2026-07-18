@@ -1,4 +1,4 @@
-import MyComponent from "./MyComponent";
+import MyComponent from "./TemplateExpressionComponent";
 
 // 1 - criando componente
 const FirstComponent = () => {
